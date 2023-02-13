@@ -1,0 +1,86 @@
+body{
+     font-size: large;
+     
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* header */
+
+#header-nav{
+      background-color: gray;
+      border-radius: 0;
+      border: 2px solid black;
+}
+
+.navbar-header span:nth-child(1){
+      font-weight: bolder;
+      color: black;
+      padding-top: 5px;
+      font-size: 1.8em;
+      margin-left: 35px;
+      
+}
+ ul{
+      
+      text-align: center;
+      margin-right: 0 auto 15px;
+      
+ }
+
+#nav-list a{
+      color: black;
+      text-align: center;
+
+
+
+}
+
+#nav-list a:hover{
+      box-shadow: green;
+      font-size: 1.5em;
+}
+
+
+@media (max-width: 767px) {
+      /* Header */
+      
+      #collapsable-nav a { /* Collapsed nav menu text */
+        font-size: 1.2em;
+        position:relative;
+      }
+
+
+}
+/* main content */
+ h1{
+      color: black;
+      font-size: 1.6em;
+      text-align: center;
+ }
+
+.chicken-content{
+      background-color: gray;
+      margin: 40px;
+      text-align: justify;
+      color: black;
+      padding: 25px;
+}
+
+#chicken-title{
+      text-align: center;
+      font-weight: 700;
+      font-size: 1.1em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+      border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+      clear: both;
+}
+
+hr{
+      width: 100%;
+      color: black;
+}
